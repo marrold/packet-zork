@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  packet-sounds:
+    image: marrold/packet-zork
+    container_name: packet-zork
+    restart: always
+    ports: 
+      - 2323:2323
